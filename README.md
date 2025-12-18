@@ -2,14 +2,14 @@
 
 A modern Flutter-based mobile application utilizing the latest mobile development technologies and tools for building responsive cross-platform applications.
 
-## 📋 Prerequisites
+## Prerequisites
 
 - Flutter SDK (^3.29.2)
 - Dart SDK
 - Android Studio / VS Code with Flutter extensions
 - Android SDK / Xcode (for iOS development)
 
-## 🛠️ Installation
+## Installation
 
 1. Install dependencies:
 ```bash
@@ -41,7 +41,7 @@ flutter_app/
 └── README.md           # Project documentation
 ```
 
-## 🧩 Adding Routes
+## Adding Routes
 
 To add new routes to the application, update the `lib/routes/app_routes.dart` file:
 
@@ -61,7 +61,7 @@ class AppRoutes {
 }
 ```
 
-## 🎨 Theming
+## Theming
 
 This project includes a comprehensive theming system with both light and dark themes:
 
@@ -80,7 +80,7 @@ The theme configuration includes:
 - Input decoration themes
 - Card and dialog themes
 
-## 📱 Responsive Design
+## Responsive Design
 
 The app is built with responsive design using the Sizer package:
 
@@ -92,7 +92,7 @@ Container(
   child: Text('Responsive Container'),
 )
 ```
-## 📦 Deployment
+## Deployment
 
 Build the application for production:
 
@@ -104,9 +104,6 @@ flutter build apk --release
 flutter build ios --release
 ```
 
-## 🙏 Acknowledgments
-- Built with [Rocket.new](https://rocket.new)
+## Acknowledgments
 - Powered by [Flutter](https://flutter.dev) & [Dart](https://dart.dev)
 - Styled with Material Design
-
-Built with ❤️ on Rocket.new
