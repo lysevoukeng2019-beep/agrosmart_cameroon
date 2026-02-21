@@ -1,8 +1,7 @@
 import 'package:google_generative_ai/google_generative_ai.dart';
 
 class GeminiService {
-  // Remplacez par votre clé Gemini
-  final String apiKey = "VOTRE_CLE_GEMINI_ICI";
+  final String apiKey = "GEMINI_API_KEY";
 
   Future<String> getAdvice(String message) async {
     try {
