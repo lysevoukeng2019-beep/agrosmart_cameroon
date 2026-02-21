@@ -1,7 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:sizer/sizer.dart';
 
-import '../../core/app_export.dart';
+import '../../core/services/gemini_service.dart';
+import '../../core/services/weather_service.dart'
 import './widgets/crop_health_card_widget.dart';
 import './widgets/farming_task_card_widget.dart';
 import './widgets/quick_actions_widget.dart';
