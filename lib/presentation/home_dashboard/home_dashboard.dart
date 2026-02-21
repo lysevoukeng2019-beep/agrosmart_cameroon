@@ -18,6 +18,9 @@ class HomeDashboard extends StatefulWidget {
 
 class _HomeDashboardState extends State<HomeDashboard>
     with TickerProviderStateMixin {
+  final WeatherService _weatherService = WeatherService();
+  final GeminiService _geminiService = GeminiService();
+  
   final GlobalKey<RefreshIndicatorState> _refreshIndicatorKey =
       GlobalKey<RefreshIndicatorState>();
 
